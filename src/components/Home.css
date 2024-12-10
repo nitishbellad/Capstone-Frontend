@@ -1,0 +1,100 @@
+/* src/components/Home.css */
+
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.home-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #090808;
+}
+
+.footer {
+  background-color: #333;
+  color: #f3eeee;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #f9f9f9;
+  
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

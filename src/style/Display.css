@@ -1,0 +1,48 @@
+/* src/style/HotelOverview.css */
+.hotel-overview {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .carousel-container {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .carousel-image {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .hotel-services {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
